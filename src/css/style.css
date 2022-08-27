@@ -1,0 +1,202 @@
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../img/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 619px;
+    background-position: bottom;
+}
+
+.input-block {
+    max-width: 400px;
+
+}
+
+.one-line-text {
+    white-space: nowrap;
+
+}
+
+.second-section {
+    background-color: #f1c50e;
+}
+
+.chevron-right::after {
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    border-radius: 50%;
+    background-image: url(../img/icon/chevron.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    background-size: 32px 32px;
+    color: red;
+}
+
+.chevron-right::after filter {
+    color: #2759AE;
+}
+
+
+.custom-container {
+    position: relative;
+}
+
+.men {
+    position: relative;
+    width: 449px;
+    height: 543px;
+    text-align: center;
+    z-index: 2;
+}
+
+.back-red {
+    position: absolute;
+    top: 240px;
+    left: 510px;
+    width: 632px;
+    height: 305px;
+    background-color: red;
+    z-index: 1;
+}
+
+.link-container {
+    height: 220px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-item {
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa-brands,
+.fab {
+    color: white;
+    font-size: 30px;
+}
+
+.last-container {
+    height: 594px;
+    position: relative;
+}
+
+.social-header {
+    font-size: 36px;
+    font-weight: 900;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.social-text {
+    font-style: 18px;
+    margin-left: 50px;
+}
+
+.policy {
+    padding-top: 30px;
+}
+
+.last-social-container {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.last-social {
+    margin-left: -14px;
+}
+
+.contact {
+    padding-top: 100px;
+    position: relative;
+}
+
+.contact-descr {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.contact-container .form-control {
+    border-radius: 0%;
+}
+
+.contact-container .btn-contact {
+    width: 150px;
+    background-color: orange;
+    color: white;
+    border-radius: 0%;
+    border-color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.back-yellow {
+    position: absolute;
+    top: 0px;
+    left: 44%;
+    width: 200px;
+    height: 594px;
+    background-color: orange;
+}
+
+.footer-wrapper {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-wrapper .footer-header {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: inherit;
+}
+
+
+/*  <div class="col-6 custom-container contact">
+                        <h2 class="font-weight-bold text-center my-0.5 ">Contact Form</h2>
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+                                        <!-- <label for="name" class=""></label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control" placeholder="Enter a valid email address">
+                                        <!-- <label for="email" class=""></label> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea" placeholder="Enter your message"></textarea>
+                                        <!-- <label for="message"></label> -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary "
+                                onclick="document.getElementById('contact-form').submit();">submit</a>
+                        </div>
+                        
+                    </div> */
